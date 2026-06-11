@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header{
+   background-color: #D3D3D3;
+   width: 100%;
+   position: fixed;
+   z-index: 900;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 150px;
+}
+.logo{
+   text-decoration: none;
+   color: #E0218A;
+   text-transform: uppercase;
+   font-weight: 700;
+    font-size: 1.5em;
+}
+.navigation a{
+   text-decoration: none;
+   color: #E0218A;
+   font-weight: 500;
+   font-size: 1.1em;
+   padding-left: 30px;
+}
+.navigation a:hover{
+   color: white;
+}
+section{
+   padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 200px;
+  background-color: #f8c8dc;
+  background-image: url("Images/Personal.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right top;
+}
+.main h2 {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main-btn{
+    text-decoration: none;
+    color:black;
+    padding: 0.9375em 2.1875em;
+    background-color: #E0218A;
+    font-weight: 500;
+    font-size: 1em;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #b10b55;
+    color: white;
+    transform: scale(1.05);
+}
+.social a{
+    color:black;
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+.social a:hover{
+   color: white;
+    transform: scale(1.05);
+}
+.title1{
+    display:flex;
+    justify-content: center;
+    color: #E0218A;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 21.25em;
+   box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 25px rgba(1,1,1,25%);
+}
+.icon{
+    color:black;
+    font-size: 7em;
+    text-align: center;
+}
+info{
+    text-align: center; 
+    font-size: 1em;
+}
+.info h3{
+    color: #E0218A;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
+
+.certificates{
+  background-color: #f8c8dc;
+
+}
+.certificates.content{
+   margin-top: 30px;
+}
+.cert-card{
+    background-color: white;
+    border: 5px solid #E0218A;
+    min-height: auto;
+    border-radius: 15px;
+    width: 20em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+   
+}
+
+.cert-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 25px rgba(1,1,1,25%);
+}
+.cert-img img{
+    width: 100%;
+    height: auto;
+}
+
+.cert-card:hover{
+    opacity: 0.8;
+}
+.cert-info{
+    padding: 1em;
+
+}
+.cert-category{
+    font-size: 0.9em;
+    color:black
+}
+.cert-title{
+    font-size: 1.2em;
+    color: black;
+    font-weight: 800;
+    margin-top: 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.contact .icon{
+font-size: 4.5em;
+
+}
+
+.contact{
+    align-items: center;
+}
+
+.contact .info p{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.footer{
+    background-color: #D3D3D3;
+    text-align: left;
+    padding: 1em;
+    color: black;
+    font-size: 0.9em;
+    /* display: flex; */
+    justify-content: space-between;
+    
+}
+
+.footer .social a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3em;
+    padding-left: 20px;
+}
